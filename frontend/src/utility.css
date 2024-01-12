@@ -1,0 +1,60 @@
+
+/* primary_color= #845EC2*/
+/* secondary_color= #E0F4FD*/
+/* secondary_color= #368EAA*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.flex{
+  display: flex;
+  gap: 1em;
+}
+.active{
+  background: white;
+  color: black;
+}
+.nav-links ul li a{
+  padding: 10px 20px;
+}
+.nav-links ul li a:hover{
+  color: black;
+  background: white;
+  border-radius: 0.5em;
+}
+.center{
+  justify-content: space-around;
+  align-items: center;
+}
+.poppins{
+  font-family: poppins;
+}
+.roboto{
+  font-family: roboto;
+}
+.primary{
+  background:  #5713c7;
+}
+.shadow{
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.text-white{
+  color: white;
+}
+.success{
+  background: #0bf40b;
+}
+.danger{
+  background: red;
+}
+.button{
+  outline: none;
+  border: none;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  color: white;
+  text-transform: capitalize;
+}
+.ripple:hover{
+  background: opacity(1);
+}
