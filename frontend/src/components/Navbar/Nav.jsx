@@ -10,13 +10,13 @@ export default function Nav() {
        </div>
        <div className="nav-links">
         <ul className="flex center">
-          <li><a class="text-white" href="">Home</a></li>
+          <li><a href="" class="text-white" >Home</a></li>
           <li><a href="" class="text-white" >About Us</a></li>
           <li><a href="" class="text-white">Services</a></li>
           <li><a href="" class="text-white">Contact Us!</a></li>
         </ul>
        </div>
-       <div className="flex center">
+       <div className="flex center ac_btns">
         <div>
          <a href="" class="success button shadow">Login</a>
         </div>
